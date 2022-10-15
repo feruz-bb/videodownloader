@@ -18,5 +18,3 @@ async def test(message:types.Message):
     )
 
     await message.answer_audio(video_send['video'],reply_markup=video_send_btn,)
-
-@dp.message_handler(Text)
